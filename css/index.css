@@ -18,7 +18,7 @@ div.moreleft, div.moreright {
     position: absolute;
     height: 100%;
     width: 2em;
-    background: rgba(255, 255, 255, .5);
+    background: rgba(100, 74, 87, 0.5);
     bottom: 0;
 }
 
@@ -51,4 +51,54 @@ div.moreright {
 a.left-button, a.right-button {
     text-decoration: none;
     color: rgb(60, 60, 60);
+}
+
+footer{
+    background-color: #ffdbe7;
+    color: white;
+}
+
+body{
+    font-family: Helvetica, 
+    sans-serif;
+    font-size: large;
+    color: rgb(2, 1, 2);
+    background-color: rgb(255, 148, 148);
+    margin-top: 20pt;
+    margin-bottom: auto;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Helvetica', sans-serif;
+    text-align: left;
+}
+
+.navbar-inverse .navbar-brand {
+    border: rgb(500, 500, 500) 5px solid;
+    color: rgb(255, 255, 255);
+    border-width: medium;
+    border-radius: 20mm;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-inverse{
+    background-color: #24151f;
+
+}
+h1{
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 100mm;
+    background-color: hsl(247, 100%, 98%);
+}
+
+.navbar-inverse .navbar-nav.navbar > li > a{
+    color:  rgb(255, 255, 255);
+    border: white 1px solid;
+    border-radius: 10mm;
+}
+
+.btn-primary {
+    color: white;
+    background-color: violet;
+    border-color: whitesmoke;
 }
