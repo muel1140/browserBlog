@@ -6,8 +6,8 @@ import aItems from "../items/index.js";
 
 class Page {
     constructor(){
-        this.sName = "Rich Hildred";
-        this.sUrlToEmailer = "https://dry-bayou-18746.herokuapp.com/send/";
+        this.sName = "Nicholas Mueller";
+        this.sUrlToEmailer = "https://calm-wildwood-98059.herokuapp.com/send/";
         const sBase = document.location.pathname;
         if(sBase[sBase.length - 1] == "/"){
             this.sBase = sBase.substr(0, sBase.length -1);
@@ -59,7 +59,7 @@ class Items extends Page{
                 $("section#itemsInner").append(`
                 <div class="item">
                     <a class="itemLink" href="#"><img id="item${n}" src="${this.getImageSrc(this.oItems[n].specialImage)}" alt="${this.oItems[n].id}"/></a>
-                    <a id="btnn${n}" class="itemLink btn btn-primary btn-block" href="#">Learn More</a>
+                    <a id="btnn${n}" class="itemLink btn btn-primary btn-block" href="#">Go Here</a>
                 </div>
                 `);
            }
@@ -124,7 +124,9 @@ class Contact extends Page{
                 <label>Message:<textarea name="message" placeholder="type your message here" class="form-control"
                         required></textarea></label>
             </div>
-            <button type="submit">Send Message</button>
+            <button type="submit">Send Message</button> 
+            <br><br><br><br>
+
 
         </form>    
         `);
